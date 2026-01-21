@@ -1,0 +1,170 @@
+.header {
+    background: #1f2937;
+    color: white;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.header-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.headline {
+    background-color: #1f2937;
+    padding: 80px 20px;
+    color: white;
+}
+
+.headline-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.headline-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.headline-text p {
+    font-size: 18px;
+}
+
+.headline-image {
+  background: #6b7280;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button.signup, button.signup-cta {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.cards {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 120px;     
+    height: 120px;           
+    border: 3px solid #4a86ff; 
+    border-radius: 12px;    
+    background-color: #fff;
+
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    max-width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .text {
+    margin-top: 10px;
+}
+
+.content {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 1100px;
+    padding: 20px;
+}
+
+.quote-name {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-inner {
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    width: 700px;
+}
+
+.signup-cta {
+    align-self: flex-end;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
